@@ -1,0 +1,27 @@
+/*** FORM ***/
+/* Comment section
+    ============================= */
+
+/* Target post-comments class */
+.post-comments {
+    width: 80%;
+    margin: 10rem 0 0 auto;
+    padding-left: 7rem;
+}
+
+/* Target the section-title class inside the post-comments class */
+.post-comments .section-title {
+    font-variant: small-caps;
+}
+
+/* Basic form
+    ============================= */
+
+/* Target all fieldset */
+fieldset {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border: none;
+    padding: 0 0 2rem;
+}
