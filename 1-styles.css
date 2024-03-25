@@ -1,0 +1,18 @@
+h2 a {
+    text-decoration: none;
+}
+
+/* Define animation for underline reveal */
+@keyframes revealUnderline {
+    from {
+        text-decoration: none;
+    }
+    to {
+        text-decoration: underline;
+    }
+}
+
+/* Apply animation to the link */
+h2 a {
+    animation: revealUnderline 2s linear forwards; /* Adjust duration and timing function as needed */
+}
